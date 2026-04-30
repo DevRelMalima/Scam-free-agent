@@ -1,0 +1,6 @@
+{
+  "name": "Scam-free agent",
+  "description": "AI-powered Scam-Detection Prototype that analyzes a message or a snippet of audio to flag deceptive intent.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": []
+}
