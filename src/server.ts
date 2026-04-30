@@ -41,7 +41,7 @@ app.post('/api/analyze', async (req, res) => {
     }
 
     const response = await ai.models.generateContent({
-      model: "gemini-3.1-pro-preview",
+      model: "gemini-2.5-flash",
       contents: { parts },
       config: {
         systemInstruction: "You are an expert scam detection and cybersecurity assistant. Evaluate the provided message or audio to determine if it's a scam, a suspicious attempt (like phishing, advanced fee fraud, fake emergency), or likely safe. Be extremely observant of urgency or financial requests. Respond with a JSON object.",
